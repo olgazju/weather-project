@@ -28,7 +28,7 @@ func main() {
 	}
 
 	// Replace "Your-Token" with your actual token.
-	req.Header.Set("token", "cYjVjvwIuzASlUdNtORLjopFPadRoZEs")
+	req.Header.Set("token", "Your-Token")
 
 	resp, err := http.DefaultClient.Do(req)
 	if err != nil {
